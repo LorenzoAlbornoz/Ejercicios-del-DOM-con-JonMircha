@@ -9,7 +9,7 @@ d.addEventListener("DOMContentLoaded", (e) => {
     hamburgerMenu(".panel-btn", ".panel", ".menu a")
     digitalClock("#reloj", "#activar-reloj", "#desactivar-reloj")
     alarm("assets/mario-bros.mp3", "#activar-alarma", "#desactivar-alarma")
-    countdown("countdown", "August 02, 2023 08:23:19", "Feliz cumpleaños Programador 😊")
+    countdown("countdown", "October 17, 2023, 11:10:00", "Feliz cumpleaños!!! 😊")
 })
 
 d.addEventListener("keydown", (e) => {
