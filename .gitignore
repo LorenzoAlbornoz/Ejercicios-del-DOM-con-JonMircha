@@ -1,0 +1,15 @@
+# Ignora archivos HTML
+asincronia.html
+basicos.html
+dom.html
+modulos.html
+nuevos-tipos.html
+
+# ignorar archivos JS
+aritmetica.js
+constantes.js
+dom.js
+modulos.js
+no-modulos.js
+
+datos.json
