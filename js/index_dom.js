@@ -13,10 +13,12 @@ d.addEventListener("DOMContentLoaded", (e) => {
     alarm("assets/mario-bros.mp3", "#activar-alarma", "#desactivar-alarma")
     countdown("countdown", "October 17, 2023, 11:10:00", "Feliz cumpleaños!!! 😊")
     scrollTopButton(".scroll-top-btn")
-    darkTheme(".dark-theme-btn", "dark-mode")
+    
 })
 
 d.addEventListener("keydown", (e) => {
     shortcuts(e),
     moveBall(e,".ball",".stage")
 })
+
+darkTheme(".dark-theme-btn", "dark-mode")
